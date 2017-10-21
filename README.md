@@ -1,8 +1,7 @@
 # Planner
+Group Members: Owen, Jake, Austin, Makayla, Chris
 GET HIP Planner Team
-<<<<<<< HEAD
 I would suggest google hangouts
-=======
+Download Group Me
 
 hi
->>>>>>> 50f555d925b424e55ac7c5145534d0f852d3d487
