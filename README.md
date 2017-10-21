@@ -1,5 +1,10 @@
 # Planner
 GET HIP Planner Team
-#planner
-##Organizing extra-curricular through a simple website
 Austin
+Chris
+Makayla
+Gus
+Jake
+I would suggest google hangouts
+hi
+
