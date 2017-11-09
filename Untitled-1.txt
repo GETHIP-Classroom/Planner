@@ -1,0 +1,20 @@
+Planner:
+-calender
+-extra curricular
+-subscriptions
+-school environment
+
+Reverse google classroom:
+-central page for coaches and teachers put into calenders
+-event creation
+-admins create groups that shoot events to certain profiles
+-event advertisement
+-new club, join here
+-can mark not to see a certain club(announcement interaction)
+-user account: students and admins
+
+-user accounts: Name, email, grade
+
+minimum viable:
+-user accounts with calenders and a list of joined clubs
+-main page with advertised clubs
