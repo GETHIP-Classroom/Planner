@@ -40,14 +40,46 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="anothatwo"><i class="fa fa-plus-square"></i>  Create Event</a>
+                    <button onclick="createActivity()"><i class="fa fa-plus-square"></i>  Create Event</button>
+                        <script>
+                        /* When the user clicks on the button, 
+                        create a new event */
+                        function createActivity() {
+                            var txt;
+                            var activity = prompt("Please enter the activity name:", "Running in Circles");
+                            if (activity == null || activity == "") {
+                                txt = "User cancelled the prompt.";
+                            } else {
+                                txt = "You have created the event: '" + activity + "'!";
+                            }
+                        document.getElementById("events").innerHTML = txt;
+                        }
+                        </script>
                 </li>
                 <li>
-                    <a href="anotherthree"><i class="fa fa-paper-plane-o"></i> Create Club</a>
+                    <button onclick="createClub()"><i class="fa fa-paper-plane-o"></i> Create Club</button>
+                        <script>
+                        /* When the user clicks on the button, 
+                        create a new club */
+                        function createClub() {
+                            var txt;
+                            var club = prompt("Please enter the club name:", "Underwater Basket Weaving Club");
+                            if (club == null || club == "") {
+                                txt = "User cancelled the prompt.";
+                            } else {
+                                txt = "You have created '" + club + "'!";
+                            }
+                            document.getElementById("clubs").innerHTML = txt;
+                        }
+                        </script>
                 </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </nav>
+    <main>
+        <p id="clubs">Clubs:</p>
+        <p id="events">Events:</p>
+    </main>
 </div> <!--end wrapper-->
 </body>

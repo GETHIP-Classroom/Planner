@@ -140,3 +140,13 @@
 .navbar-brand {
     padding: 5px 15px;
 }
+button {
+    border:none; 
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+    margin: 0;
+    color: #fff;
+    background-color: #222;
+}
