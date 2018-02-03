@@ -240,3 +240,7 @@ textarea {
     to {opacity: 1}
 }
 /* end modal CSS*/
+table, tr, th, td {
+    width: 100%;
+    height: 400px;
+}
