@@ -32,7 +32,7 @@
 }
 
 .top-nav>li {
-    display: inline-block;
+    display: block;
     float: left;
 }
 
@@ -250,12 +250,21 @@ table {
 }
 .carousel-image{
     overflow-y: hidden;
+    position: top;
     width: 100%;
-  transform: translateY(-25%);
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-25%);
 }
 .container {
     width: 100%;
     max-height: 400px;
     overflow-y: hidden;
     display: inline-block;
+    position: relative;
+}
+.left, .right{
+    vertical-align: text-top;
+    transform: translateY(-25%);
+    background-color: rgba(0,0,0,0)
 }
