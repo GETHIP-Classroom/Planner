@@ -1,23 +1,17 @@
 FlowRouter.route('/', {
     action: function(params, queryParams) {
-        BlazeLayout.render("signIn");
-    }
-});
-
-FlowRouter.route('/home', {
-    action: function(params, queryParams) {
-        BlazeLayout.render("home");
+        BlazeLayout.render("layout", {content: 'carousel'});
     }
 });
 
 FlowRouter.route('/profile', {
     action: function(params, queryParams) {
-        BlazeLayout.render("profile");
+        BlazeLayout.render("layout", {content: 'profile'});
     }
 });
 
 FlowRouter.route('/clubs', {
     action: function(params, queryParams) {
-        BlazeLayout.render("clubs");
+        BlazeLayout.render("layout", {content: 'clubs'});
     }
 });
