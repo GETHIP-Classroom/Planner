@@ -1,5 +1,11 @@
 FlowRouter.route('/', {
     action: function(params, queryParams) {
+        BlazeLayout.render("signIn");
+    }
+});
+
+FlowRouter.route('/home', {
+    action: function(params, queryParams) {
         BlazeLayout.render("home");
     }
 });
