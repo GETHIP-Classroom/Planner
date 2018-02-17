@@ -1,0 +1,13 @@
+{
+  "name": "planner",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^1.0.3",
+    "core-js": "^2.5.3",
+    "meteor-node-stubs": "~0.2.4"
+  }
+}
