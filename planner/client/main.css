@@ -268,3 +268,7 @@ table {
     transform: translateY(-25%);
     background-color: rgba(0,0,0,0)
 }
+main {
+    padding-top: 35px;
+    padding-left: 250px;
+}
