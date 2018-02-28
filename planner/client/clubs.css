@@ -3,19 +3,32 @@ main {
     padding-left: 250px;
     padding-right: 250px;
 }
-table, td, th {
-    border: 1px, solid black;
+#MainTable, #ClubInfoTD, #ActivityTD, table, td, th {
+    border: 1px solid black;
     table-layout: fixed;
+    display: inline-block;
     position: relative;
 }
-#ClubImage {
-    max-width: 600px;
+#MainTable {
+    max-width: 1000px;
+    width: 100%;
 }
-#ActivityTD, td {
+#ClubInfo {
+    max-width: 700px;
+    width: 100%;
+}
+#ClubImage {
+    max-width: 695px;
+    margin: auto;
+    display: block;
+    position: relative;
+}
+#ActivityFeed {
     max-width: 300px;
     column-width: 300px;
 }
 .ClubInfoTD, th {
     width: 100%;
     column-width: 100%;
+    display: block;
 }
