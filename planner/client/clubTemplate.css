@@ -4,9 +4,9 @@ main {
     padding-right: 250px;
 }
 #MainTable, #ClubInfoTD, #ActivityTD, table, td, th {
-    border: 1px solid black;
+    border: 0px solid black;
     table-layout: fixed;
-    display: inline-block;
+    display: block;
     position: relative;
 }
 #MainTable {
