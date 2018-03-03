@@ -27,3 +27,9 @@ FlowRouter.route('/club2', {
         BlazeLayout.render("layout", {content: 'clubTemplate'});
     }
 });
+
+FlowRouter.route('/survey', {
+    action: function(params, queryParams) {
+        BlazeLayout.render("survey");
+    }
+});
