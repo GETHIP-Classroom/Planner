@@ -4,7 +4,7 @@ main {
     padding-right: 250px;
 }
 #MainTable, #ClubInfoTD, #ActivityTD, table, td, th {
-    border: 0px solid black;
+    border: 0px solid white;
     table-layout: fixed;
     display: block;
     position: relative;
